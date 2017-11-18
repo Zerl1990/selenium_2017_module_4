@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteForExample4" verbose="1" parallel="methods">
+    <test name="Basic Regression" >
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="com.qalabs.pageobjects.GmailComposeTest"></class>
+        </classes>
+    </test>
+</suite>
